@@ -9,50 +9,27 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <EditText
-            android:id="@+id/numberOne"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="number"
-            android:hint="Insira um número"
-            android:textAlignment="center" />
-
-        <EditText
-            android:id="@+id/numberTwo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="number"
-            android:hint="Insira um número"
-            android:textAlignment="center" />
+        android:orientation="vertical">
 
         <Button
-            android:id="@+id/sumButton"
+            android:id="@+id/button_ex1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="SOMAR" />
+            android:onClick="gotoAtividade1Ex1"
+            android:text="EXERCÍCIO 1: SOMA" />
 
-        <TextView
-            android:id="@+id/resultText"
+        <Button
+            android:id="@+id/button_ex2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RESULTADO:"
-            android:textAlignment="center"
-            android:textSize="24sp" />
+            android:onClick="gotoAtividade1Ex2"
+            android:text="EXERCÍCIO 2: MENSAGEM" />
 
-        <TextView
-            android:id="@+id/showResult"
+        <Button
+            android:id="@+id/button_ex3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""
-            android:textAlignment="center"
-            android:textSize="24sp" />
+            android:onClick="gotoAtividade1Ex3"
+            android:text="EXERCÍCIO 3: ACELERÔMETRO" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

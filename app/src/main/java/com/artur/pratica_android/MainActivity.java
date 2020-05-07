@@ -2,6 +2,7 @@ package com.artur.pratica_android;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -11,42 +12,29 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-	EditText numberOne;
-	EditText numberTwo;
-	Button sumButton;
-	TextView showResult;
+	Button button_ex1;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
-		numberOne = findViewById(R.id.numberOne);
-		numberTwo = findViewById(R.id.numberTwo);
-		sumButton = findViewById(R.id.sumButton);
-		showResult = findViewById(R.id.showResult);
+		button_ex1 = findViewById(R.id.button_ex1);
 
-		sumButton.setOnClickListener(new View.OnClickListener(){
-			@Override
-			public void onClick(View view) {
-				String numberOneText = numberOne.getText().toString();
-				String numberTwoText = numberTwo.getText().toString();
+	}
 
-				if(!numberOneText.isEmpty() && !numberTwoText.isEmpty()) {
-					try {
-						int nOne = Integer.parseInt(numberOneText);
-						Log.d("ONE", String.valueOf(nOne));
-						int nTwo = Integer.parseInt(numberTwoText);
-						Log.d("TWO", String.valueOf(nTwo));
-						String result = String.valueOf(nOne + nTwo);
-						Log.d("RESULT", result);
-						showResult.setText(result);
-					} catch (NumberFormatException e) {
-						e.printStackTrace();
-						showResult.setText("ERROR");
-					}
-				}
-			}
-		});
+	public void gotoAtividade1Ex1(View view) {
+		Intent intent = new Intent(this, Atividade1Ex1.class);
+		startActivity(intent);
+	}
+
+	public void gotoAtividade1Ex2(View view) {
+		Intent intent = new Intent(this, Atividade1Ex2.class);
+		startActivity(intent);
+	}
+
+	public void gotoAtividade1Ex3(View view) {
+		Intent intent = new Intent(this, Atividade1Ex3.class);
+		startActivity(intent);
 	}
 }
