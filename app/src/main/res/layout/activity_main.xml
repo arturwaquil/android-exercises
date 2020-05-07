@@ -20,8 +20,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Enter a number"
+            android:inputType="number"
+            android:hint="Insira um número"
             android:textAlignment="center" />
 
         <EditText
@@ -29,23 +29,30 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Enter a number"
+            android:inputType="number"
+            android:hint="Insira um número"
             android:textAlignment="center" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/sumButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ADD" />
+            android:text="SOMAR" />
 
         <TextView
-            android:id="@+id/resultView"
+            android:id="@+id/resultText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView"
+            android:text="RESULTADO:"
             android:textAlignment="center"
-            android:textSize="24sp"
-            tools:text="RESULT" />
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/showResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="24sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
