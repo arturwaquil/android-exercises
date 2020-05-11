@@ -16,20 +16,20 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="gotoAtividade1Ex1"
-            android:text="EXERCÍCIO 1: SOMA" />
+            android:text="1.1: SOMA" />
 
         <Button
             android:id="@+id/button_ex2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="gotoAtividade1Ex2"
-            android:text="EXERCÍCIO 2: MENSAGEM" />
+            android:text="1.2: MENSAGEM" />
 
         <Button
             android:id="@+id/button_ex3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="gotoAtividade1Ex3"
-            android:text="EXERCÍCIO 3: ACELERÔMETRO" />
+            android:text="1.3: ACELERÔMETRO" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
