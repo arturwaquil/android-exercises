@@ -12,14 +12,10 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-	Button button_ex1;
-
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-
-		button_ex1 = findViewById(R.id.button_ex1);
 
 	}
 
@@ -35,6 +31,11 @@ public class MainActivity extends AppCompatActivity {
 
 	public void gotoAtividade1Ex3(View view) {
 		Intent intent = new Intent(this, Atividade1Ex3.class);
+		startActivity(intent);
+	}
+
+	public void gotoAtividade2(View view) {
+		Intent intent = new Intent(this, Atividade2.class);
 		startActivity(intent);
 	}
 }

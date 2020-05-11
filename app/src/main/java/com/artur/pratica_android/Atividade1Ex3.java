@@ -14,8 +14,8 @@ import android.widget.TextView;
 public class Atividade1Ex3 extends AppCompatActivity implements SensorEventListener {
 
 	TextView x_value, y_value, z_value;
-	SensorManager sensorManager;
-	Sensor sensor;
+	private SensorManager sensorManager;
+	private Sensor sensor;
 
 	float x, y, z;
 	float x_old, y_old, z_old;

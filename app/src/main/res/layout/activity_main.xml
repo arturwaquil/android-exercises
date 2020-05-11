@@ -12,24 +12,31 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/button_ex1"
+            android:id="@+id/button_1_ex1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="gotoAtividade1Ex1"
             android:text="1.1: SOMA" />
 
         <Button
-            android:id="@+id/button_ex2"
+            android:id="@+id/button_1_ex2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="gotoAtividade1Ex2"
             android:text="1.2: MENSAGEM" />
 
         <Button
-            android:id="@+id/button_ex3"
+            android:id="@+id/button_1_ex3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="gotoAtividade1Ex3"
             android:text="1.3: ACELERÔMETRO" />
+
+        <Button
+            android:id="@+id/button_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="gotoAtividade2"
+            android:text="2: OUTROS SENSORES" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
