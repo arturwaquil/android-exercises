@@ -27,19 +27,19 @@
                 android:text="LIGHT:"
                 android:textSize="36sp" />
 
-<!--            <TextView-->
-<!--                android:id="@+id/y_label"-->
-<!--                android:layout_width="50dp"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:text="Y:"-->
-<!--                android:textSize="36sp" />-->
+            <TextView
+                android:id="@+id/temp_label"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="TEMP:"
+                android:textSize="36sp" />
 
-<!--            <TextView-->
-<!--                android:id="@+id/z_label"-->
-<!--                android:layout_width="50dp"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:text="Z:"-->
-<!--                android:textSize="36sp" />-->
+            <TextView
+                android:id="@+id/prox_label"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="PROX:"
+                android:textSize="36sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -55,19 +55,21 @@
                 android:textAlignment="center"
                 android:textSize="36sp" />
 
-<!--            <TextView-->
-<!--                android:id="@+id/y_value"-->
-<!--                android:layout_width="220dp"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:text=""-->
-<!--                android:textSize="36sp" />-->
+            <TextView
+                android:id="@+id/temp_value"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="36sp" />
 
-<!--            <TextView-->
-<!--                android:id="@+id/z_value"-->
-<!--                android:layout_width="220dp"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:text=""-->
-<!--                android:textSize="36sp" />-->
+            <TextView
+                android:id="@+id/prox_value"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="36sp" />
         </LinearLayout>
 
     </LinearLayout>

@@ -8,6 +8,8 @@ Exercises on Android Studio for the class of Human-Computer Interaction.
 
 1.3: detecting abrupt movements with accelerometer
 
+2.1: show luminosity info
 
+2.2: show temperature and proximity info
 
-2 (TODO): more exercises on sensors
+2.3 (TODO): show GPS info
