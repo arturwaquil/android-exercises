@@ -12,4 +12,4 @@ Exercises on Android Studio for the class of Human-Computer Interaction.
 
 2.2: show temperature and proximity info
 
-2.3 (TODO): show GPS info
+2.3: show GPS info

@@ -55,9 +55,9 @@ public class Atividade1Ex3 extends AppCompatActivity implements SensorEventListe
 			y = event.values[1];
 			z = event.values[2];
 
-			x_value.setText(String.valueOf(x));
-			y_value.setText(String.valueOf(y));
-			z_value.setText(String.valueOf(z));
+			x_value.setText(String.format("%.5f", x));
+			y_value.setText(String.format("%.5f", y));
+			z_value.setText(String.format("%.5f", z));
 
 			if (!firstTime && (big_diff(x,x_old) || big_diff(y,y_old) || big_diff(z,z_old))) {
 				sendAction(x,y,z, x_old, y_old, z_old);

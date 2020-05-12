@@ -49,23 +49,26 @@
 
             <TextView
                 android:id="@+id/x_value"
-                android:layout_width="220dp"
+                android:layout_width="180dp"
                 android:layout_height="wrap_content"
                 android:text=""
+                android:textAlignment="center"
                 android:textSize="36sp" />
 
             <TextView
                 android:id="@+id/y_value"
-                android:layout_width="220dp"
+                android:layout_width="180dp"
                 android:layout_height="wrap_content"
                 android:text=""
+                android:textAlignment="center"
                 android:textSize="36sp" />
 
             <TextView
                 android:id="@+id/z_value"
-                android:layout_width="220dp"
+                android:layout_width="180dp"
                 android:layout_height="wrap_content"
                 android:text=""
+                android:textAlignment="center"
                 android:textSize="36sp" />
         </LinearLayout>
 
